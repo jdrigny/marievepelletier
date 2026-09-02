@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr" id="html-root">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>À propos — Mariève Pelletier</title>
+<meta name="description" content="Mariève Pelletier — bio, démarche, CV, contact.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<body>
+
+<header>
+  <span class="site-name"><a href="index.html" style="text-decoration:none; color:inherit;">Mariève Pelletier</a></span>
+  <div class="nav-right">
+    <nav class="nav-links">
+      <a href="index.html"><span data-fr>Accueil</span><span data-en>Home</span></a>
+      <a href="travaux.html"><span data-fr>Travaux</span><span data-en>Work</span></a>
+      <a href="expo.html"><span data-fr>Expo</span><span data-en>Exhibitions</span></a>
+      <a href="memoire.html"><span data-fr>Le végétal est photographie</span><span data-en>Le végétal est photographie</span></a>
+      <a href="actualites.html"><span data-fr>Actualités</span><span data-en>News</span></a>
+      <a href="apropos.html"><span data-fr>À propos</span><span data-en>About</span></a>
+    </nav>
+    <button id="lang-toggle" onclick="toggleLang()">EN</button>
+    <button id="mobile-menu-toggle" onclick="toggleMobileMenu()" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<nav id="mobile-menu">
+  <a href="index.html" onclick="closeMobileMenu()"><span data-fr>Accueil</span><span data-en>Home</span></a>
+  <a href="travaux.html" onclick="closeMobileMenu()"><span data-fr>Travaux</span><span data-en>Work</span></a>
+  <a href="expo.html" onclick="closeMobileMenu()"><span data-fr>Expo</span><span data-en>Exhibitions</span></a>
+  <a href="memoire.html" onclick="closeMobileMenu()"><span data-fr>Le végétal est photographie</span><span data-en>Le végétal est photographie</span></a>
+  <a href="actualites.html" onclick="closeMobileMenu()"><span data-fr>Actualités</span><span data-en>News</span></a>
+  <a href="apropos.html" onclick="closeMobileMenu()"><span data-fr>À propos</span><span data-en>About</span></a>
+</nav>
+
+<div class="wrap">
+
+  <section style="border-top:none; padding-top:56px;">
+    <h2 data-fr>Bio / démarche</h2>
+    <h2 data-en>Bio / statement</h2>
+
+    <div style="display:flex; gap:28px; flex-wrap:wrap; align-items:flex-start;">
+      <div style="flex:1 1 200px; max-width:260px;">
+        <img src="images/portrait.webp" alt="Portrait de Mariève Pelletier" style="width:100%; height:auto; display:block;">
+      </div>
+      <div style="flex:2 1 240px; min-width:200px;">
+        <p data-fr>Artiste plasticienne et herboriste, Mariève Pelletier engage un travail marqué par l'histoire des femmes à travers l'art et son lien avec le végétal. L'émancipation de son travail trouve racine lors de ses études à Strasbourg à la HEAR (2009) où elle étudie intensivement les techniques alternatives de photographie, sous l'aile de la photographe et enseignante Camille Bonnefoi. Elle décide alors de s'installer définitivement en France et poursuit un master à l'ésam de Caen/Cherbourg. Elle obtient son diplôme national supérieur d'expression plastique (DNSEP) en 2017. Depuis, son travail navigue entre l'héritage canadien qu'elle conserve et les influences françaises de l'art.</p>
+        <p data-en>A visual artist and herbalist, Mariève Pelletier pursues work shaped by women's history through art and its connection to the plant world. The emancipation of her practice took root during her studies in Strasbourg at the HEAR (2009), where she intensively studied alternative photographic techniques under photographer and teacher Camille Bonnefoi. She then decided to settle permanently in France and went on to complete a master's degree at the ésam in Caen/Cherbourg. She earned her DNSEP (national diploma in visual expression) in 2017. Since then, her work has moved between the Canadian heritage she carries with her and the French influences on her art.</p>
+
+        <p data-fr>Depuis la fin de ses études, son travail a été présenté au Québec, en France, en Belgique, au Japon et en Allemagne. Elle est membre du collectif d'artistes « À Venir » dont le mandat est d'investir des vitrines vides des centres-villes. Elle est aussi membre de l'association l'A.P.A (association de photographie ancienne de Paris) depuis plus de quinze ans. En 2022, les Archives du Calvados (France) font l'acquisition de neuf de ses photographies et un fonds photographique est créé en son nom. Elle s'implique activement dans la transmission des savoirs sur la photographie ancienne en donnant des cours ainsi que des interventions entre ces deux pays.</p>
+        <p data-en>Since completing her studies, her work has been shown in Quebec, France, Belgium, Japan and Germany. She is a member of the artist collective "À Venir," whose mandate is to occupy vacant storefronts in city centres. She has also been a member of the A.P.A (Paris association for historical photography) for more than fifteen years. In 2022, the Archives du Calvados (France) acquired nine of her photographs, and a photographic fonds was created in her name. She is actively involved in passing on knowledge of historical photography, giving courses and talks in both countries.</p>
+
+        <p style="margin-top:20px;">
+          <a href="cv.pdf" target="_blank" rel="noopener"><span data-fr>Télécharger le CV complet (PDF)</span><span data-en>Download full CV (PDF)</span></a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 data-fr>À Venir</h2>
+    <h2 data-en>À Venir</h2>
+    <p data-fr>Mariève Pelletier préside, depuis 2018, le collectif d'artistes « À Venir », dont le mandat est d'investir des lieux commerciaux vides des centres-villes pour y présenter des expositions temporaires. Le collectif a notamment porté <em>Zone de Confort</em> (Caen/Cherbourg, 2018), <em>L'horizon Soupire</em> (Caen, 2021) et <em>Midnight Mochi</em> (Art au Centre, Liège, 2021).</p>
+    <p data-en>Mariève Pelletier has chaired, since 2018, the artist collective "À Venir," whose mandate is to occupy vacant commercial spaces in city centres for temporary exhibitions. The collective has notably presented <em>Zone de Confort</em> (Caen/Cherbourg, 2018), <em>L'horizon Soupire</em> (Caen, 2021) and <em>Midnight Mochi</em> (Art au Centre, Liège, 2021).</p>
+  </section>
+
+  <section>
+    <h2 data-fr>Presse &amp; publications</h2>
+    <h2 data-en>Press &amp; publications</h2>
+
+    <p style="margin-bottom:8px;"><strong data-fr>Presse</strong><strong data-en>Press</strong></p>
+    <div class="expo-row"><span class="expo-year">19-20.09.2026</span><span data-fr><a href="https://journeesdupatrimoine.culture.gouv.fr/w/391796/evenement/19740183/atelier-photographique-tissus-photosensibles-realisation-de-cyanotypes-par-marieve-pelletier#/events/19740183" target="_blank" rel="noopener"><em>Tissus photosensibles</em></a>, Journées européennes du patrimoine, Ministère de la Culture</span><span data-en><a href="https://journeesdupatrimoine.culture.gouv.fr/w/391796/evenement/19740183/atelier-photographique-tissus-photosensibles-realisation-de-cyanotypes-par-marieve-pelletier#/events/19740183" target="_blank" rel="noopener"><em>Tissus photosensibles</em></a>, European Heritage Days, French Ministry of Culture</span></div>
+    <div class="expo-row"><span class="expo-year">2026</span><span data-fr><a href="https://archives.calvados.fr/page/ateliers-tissus-photosensibles-realisation-de-cyanotypes-par-marieve-pelletier" target="_blank" rel="noopener"><em>Ateliers tissus photosensibles</em></a>, Archives du Calvados</span><span data-en><a href="https://archives.calvados.fr/page/ateliers-tissus-photosensibles-realisation-de-cyanotypes-par-marieve-pelletier" target="_blank" rel="noopener"><em>Ateliers tissus photosensibles</em></a>, Archives du Calvados</span></div>
+    <div class="expo-row"><span class="expo-year">2026</span><span data-fr><a href="https://openagenda.com/en/culture/events/61108136_ateliers-photographiques-tissus-photosensibles-realisation-de-cyanotypes-par-marieve-pelletier?cl=fr" target="_blank" rel="noopener"><em>Ateliers photographiques</em></a>, Open Agenda, Ministère de la Culture</span><span data-en><a href="https://openagenda.com/en/culture/events/61108136_ateliers-photographiques-tissus-photosensibles-realisation-de-cyanotypes-par-marieve-pelletier?cl=fr" target="_blank" rel="noopener"><em>Ateliers photographiques</em></a>, Open Agenda, French Ministry of Culture</span></div>
+    <div class="expo-row"><span class="expo-year">2024</span><span data-fr><a href="https://francearchives.gouv.fr/findingaid/7ff794e7f3ebae54d7b1f91efcfeb5fb13ce5951" target="_blank" rel="noopener"><em>Fonds Mariève Pelletier — artiste photographe</em></a>, France Archives</span><span data-en><a href="https://francearchives.gouv.fr/findingaid/7ff794e7f3ebae54d7b1f91efcfeb5fb13ce5951" target="_blank" rel="noopener"><em>Fonds Mariève Pelletier — artiste photographe</em></a>, France Archives</span></div>
+    <div class="expo-row"><span class="expo-year">16.09.2023</span><span data-fr><a href="https://www.ouest-france.fr/normandie/caen-14000/calvados-immersion-dans-le-monde-davant-aux-archives-departementales-41cb610e-54a3-11ee-8035-ee7b2b5b2a57" target="_blank" rel="noopener"><em>Immersion dans le monde d'avant aux Archives du Calvados</em></a>, Ouest France</span><span data-en><a href="https://www.ouest-france.fr/normandie/caen-14000/calvados-immersion-dans-le-monde-davant-aux-archives-departementales-41cb610e-54a3-11ee-8035-ee7b2b5b2a57" target="_blank" rel="noopener"><em>Immersion dans le monde d'avant aux Archives du Calvados</em></a>, Ouest France</span></div>
+    <div class="expo-row"><span class="expo-year">2022</span><span data-fr><a href="https://jeudepaume.org/wp-content/uploads/2022/03/Dossier-DD-FataMorgana-WEB.pdf" target="_blank" rel="noopener"><em>Le végétal est photographie</em></a>, Dossier documentaire, Jeu de Paume</span><span data-en><a href="https://jeudepaume.org/wp-content/uploads/2022/03/Dossier-DD-FataMorgana-WEB.pdf" target="_blank" rel="noopener"><em>Le végétal est photographie</em></a>, Documentary file, Jeu de Paume</span></div>
+    <div class="expo-row"><span class="expo-year">2021</span><span data-fr><a href="https://caen.fr/sites/default/files/2021-04/CAENMAG-208_avril_planches.pdf" target="_blank" rel="noopener"><em>Patrimoine végétal au Chemin Vert</em></a>, Caen Mag, p. 16</span><span data-en><a href="https://caen.fr/sites/default/files/2021-04/CAENMAG-208_avril_planches.pdf" target="_blank" rel="noopener"><em>Patrimoine végétal au Chemin Vert</em></a>, Caen Mag, p. 16</span></div>
+    <div class="expo-row"><span class="expo-year">2020</span><span data-fr><a href="https://jeudepaume.org/wp-content/uploads/2021/04/DossierDocumentaire_Lesupermarchedesimages.pdf" target="_blank" rel="noopener"><em>Le supermarché des images</em></a>, Dossier documentaire, Jeu de Paume</span><span data-en><a href="https://jeudepaume.org/wp-content/uploads/2021/04/DossierDocumentaire_Lesupermarchedesimages.pdf" target="_blank" rel="noopener"><em>Le supermarché des images</em></a>, Documentary file, Jeu de Paume</span></div>
+    <div class="expo-row"><span class="expo-year">06.08.2020</span><span data-fr><a href="https://www.lesoleil.com/2020/08/07/techniques-anciennes-artiste-contemporaine-d818d198db5f02d8b361dc265e99c308/" target="_blank" rel="noopener"><em>Techniques anciennes, artiste contemporaine</em></a>, Marie-Ève Lambert, Le Soleil</span><span data-en><a href="https://www.lesoleil.com/2020/08/07/techniques-anciennes-artiste-contemporaine-d818d198db5f02d8b361dc265e99c308/" target="_blank" rel="noopener"><em>Techniques anciennes, artiste contemporaine</em></a>, Marie-Ève Lambert, Le Soleil</span></div>
+    <div class="expo-row"><span class="expo-year">2020</span><span data-fr><a href="https://artaucentre.be/vitrine/diffractions/" target="_blank" rel="noopener"><em>Diffractions</em></a>, Art au Centre, Liège</span><span data-en><a href="https://artaucentre.be/vitrine/diffractions/" target="_blank" rel="noopener"><em>Diffractions</em></a>, Art au Centre, Liège</span></div>
+    <div class="expo-row"><span class="expo-year">16.05.2019</span><span data-fr><a href="https://www.ledroit.com/2019/05/17/expo-de-marieve-pelletier-au-musee-bruck-des-photos-sans-appareil-photo-353ebb4ff38463b04f1dbeb51fe93258/" target="_blank" rel="noopener"><em>Des photos… sans appareil photo</em></a>, Marie-Ève Lambert, Le Droit</span><span data-en><a href="https://www.ledroit.com/2019/05/17/expo-de-marieve-pelletier-au-musee-bruck-des-photos-sans-appareil-photo-353ebb4ff38463b04f1dbeb51fe93258/" target="_blank" rel="noopener"><em>Des photos… sans appareil photo</em></a>, Marie-Ève Lambert, Le Droit</span></div>
+    <div class="expo-row"><span class="expo-year">29.11.2018</span><span data-fr><a href="https://www.lavoixdelest.ca/2018/11/30/fil-conducteur-et-diversite-au-musee-bruck-8412bd478da74ce6c7d2342b52da199d/" target="_blank" rel="noopener"><em>Fil conducteur et diversité au Musée Bruck</em></a>, Mikael Lambert, La Voix de l'Est</span><span data-en><a href="https://www.lavoixdelest.ca/2018/11/30/fil-conducteur-et-diversite-au-musee-bruck-8412bd478da74ce6c7d2342b52da199d/" target="_blank" rel="noopener"><em>Fil conducteur et diversité au Musée Bruck</em></a>, Mikael Lambert, La Voix de l'Est</span></div>
+
+    <p style="margin:28px 0 8px;"><strong data-fr>Présence en ligne</strong><strong data-en>Online presence</strong></p>
+    <div class="expo-row">
+      <span class="expo-year"></span>
+      <span data-fr><a href="https://www.voar.fr/annuaire-des-artistes/marieve-pelletier/113" target="_blank" rel="noopener">VOAR</a> — première plateforme de vente d'art et de mise en relation entre artiste et acheteur</span>
+      <span data-en><a href="https://www.voar.fr/annuaire-des-artistes/marieve-pelletier/113" target="_blank" rel="noopener">VOAR</a> — the first art sales platform connecting artists directly with buyers</span>
+    </div>
+
+    <p style="margin:28px 0 8px;"><strong data-fr>Publications</strong><strong data-en>Publications</strong></p>
+    <div class="expo-row"><span class="expo-year">2026</span><span data-fr><em>La révélation Argentique</em>, Nicolas Andry, Primitive Press &amp; Les éditions Caïd</span><span data-en><em>La révélation Argentique</em>, Nicolas Andry, Primitive Press &amp; Les éditions Caïd</span></div>
+    <div class="expo-row"><span class="expo-year">2025</span><span data-fr><em>Female Artists Issue</em>, Art to Hearts Magazine 11</span><span data-en><em>Female Artists Issue</em>, Art to Hearts Magazine 11</span></div>
+    <div class="expo-row"><span class="expo-year">2023</span><span data-fr><em>Photographie, les acquisitions des collections publiques</em>, vol. 6, Ministère de la Culture / Éditions Le Bec en l'Air</span><span data-en><em>Photographie, les acquisitions des collections publiques</em>, vol. 6, French Ministry of Culture / Éditions Le Bec en l'Air</span></div>
+    <div class="expo-row"><span class="expo-year">2021</span><span data-fr><em>Précis de déambulations botaniques</em>, magazine bosquet, n°06 « mémoire »</span><span data-en><em>Précis de déambulations botaniques</em>, bosquet magazine, no. 06 "mémoire"</span></div>
+    <div class="expo-row"><span class="expo-year">2021</span><span data-fr><em>Art au Centre</em>, catalogue 2019-21, Les Éditions du Caïd</span><span data-en><em>Art au Centre</em>, 2019-21 catalogue, Les Éditions du Caïd</span></div>
+    <div class="expo-row"><span class="expo-year">2019</span><span data-fr><em>Plastic Love 2</em>, groupe Axho, Mandoobar (Paris) et Au Goûter (Suwon, Corée du Sud)</span><span data-en><em>Plastic Love 2</em>, Axho group, Mandoobar (Paris) and Au Goûter (Suwon, South Korea)</span></div>
+
+    <p style="margin:28px 0 8px;"><strong data-fr>Recherches sur son travail</strong><strong data-en>Research on her work</strong></p>
+    <div class="expo-row"><span class="expo-year">2024</span><span data-fr>April Tavernier, <em>Les procédés alternatifs écologiques : une réinvention de la photographie dans l'art contemporain</em>, mémoire de Master 2, Université de Lille</span><span data-en>April Tavernier, <em>Les procédés alternatifs écologiques : une réinvention de la photographie dans l'art contemporain</em>, Master's thesis, Université de Lille</span></div>
+  </section>
+
+  <footer id="contact">
+    <h2 data-fr>Contact</h2>
+    <h2 data-en>Contact</h2>
+    <div class="foot-links">
+      <a href="mailto:pelletier.marieve@gmail.com">pelletier.marieve@gmail.com</a>
+      <a href="https://www.marievepelletier.com" target="_blank" rel="noopener">marievepelletier.com</a>
+      <a href="https://www.instagram.com/marievepelletier" target="_blank" rel="noopener">@marievepelletier</a>
+    </div>
+    <p class="foot-note">© Mariève Pelletier</p>
+  </footer>
+
+
+</div>
+
+<div id="lightbox">
+  <button id="lightbox-close" onclick="closeLightbox()">
+    <span data-fr>Fermer ✕</span><span data-en>Close ✕</span>
+  </button>
+  <div class="lb-inner">
+    <img id="lightbox-img" src="" alt="">
+    <div id="lightbox-cap" class="lb-cap"></div>
+  </div>
+</div>
+
+<script>
+
+
+  function toggleMobileMenu(){
+    document.getElementById('mobile-menu').classList.toggle('open');
+  }
+  function closeMobileMenu(){
+    document.getElementById('mobile-menu').classList.remove('open');
+  }
+
+  function toggleLang(){
+    const body = document.body;
+    const btn = document.getElementById('lang-toggle');
+    const html = document.getElementById('html-root');
+    if(body.classList.contains('lang-en')){
+      body.classList.remove('lang-en');
+      btn.textContent = 'EN';
+      html.setAttribute('lang','fr');
+    } else {
+      body.classList.add('lang-en');
+      btn.textContent = 'FR';
+      html.setAttribute('lang','en');
+    }
+  }
+
+  function openLightbox(imgEl){
+    const plate = imgEl.closest('.plate');
+    const cap = plate ? plate.querySelector('.plate-cap') : null;
+    document.getElementById('lightbox-img').src = imgEl.src;
+    document.getElementById('lightbox-img').alt = imgEl.alt;
+    document.getElementById('lightbox-cap').innerHTML = cap ? cap.innerHTML : '';
+    document.getElementById('lightbox').classList.add('open');
+  }
+  function closeLightbox(){
+    document.getElementById('lightbox').classList.remove('open');
+  }
+  document.getElementById('lightbox').addEventListener('click', function(e){
+    if(e.target.id === 'lightbox'){ closeLightbox(); }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ closeLightbox(); }
+  });
+
+</script>
+
+</body>
+</html>
