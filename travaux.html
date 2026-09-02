@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr" id="html-root">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travaux — Mariève Pelletier</title>
+<meta name="description" content="Travaux de Mariève Pelletier : anthotypes, cyanotypes, peintures et installations, 2010-2026.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<body>
+
+<header>
+  <span class="site-name"><a href="index.html" style="text-decoration:none; color:inherit;">Mariève Pelletier</a></span>
+  <div class="nav-right">
+    <nav class="nav-links">
+      <a href="index.html"><span data-fr>Accueil</span><span data-en>Home</span></a>
+      <a href="travaux.html"><span data-fr>Travaux</span><span data-en>Work</span></a>
+      <a href="expo.html"><span data-fr>Expo</span><span data-en>Exhibitions</span></a>
+      <a href="memoire.html"><span data-fr>Le végétal est photographie</span><span data-en>Le végétal est photographie</span></a>
+      <a href="actualites.html"><span data-fr>Actualités</span><span data-en>News</span></a>
+      <a href="apropos.html"><span data-fr>À propos</span><span data-en>About</span></a>
+    </nav>
+    <button id="lang-toggle" onclick="toggleLang()">EN</button>
+    <button id="mobile-menu-toggle" onclick="toggleMobileMenu()" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<nav id="mobile-menu">
+  <a href="index.html" onclick="closeMobileMenu()"><span data-fr>Accueil</span><span data-en>Home</span></a>
+  <a href="travaux.html" onclick="closeMobileMenu()"><span data-fr>Travaux</span><span data-en>Work</span></a>
+  <a href="expo.html" onclick="closeMobileMenu()"><span data-fr>Expo</span><span data-en>Exhibitions</span></a>
+  <a href="memoire.html" onclick="closeMobileMenu()"><span data-fr>Le végétal est photographie</span><span data-en>Le végétal est photographie</span></a>
+  <a href="actualites.html" onclick="closeMobileMenu()"><span data-fr>Actualités</span><span data-en>News</span></a>
+  <a href="apropos.html" onclick="closeMobileMenu()"><span data-fr>À propos</span><span data-en>About</span></a>
+</nav>
+
+<div class="wrap">
+
+  <section style="border-top:none; padding-top:56px;">
+    <h2 data-fr>Travaux</h2>
+    <h2 data-en>Work</h2>
+    <p style="margin-bottom:28px; max-width:60ch; color:var(--ink-soft);" data-fr>Une sélection de la production, par ordre chronologique.</p>
+    <p style="margin-bottom:28px; max-width:60ch; color:var(--ink-soft);" data-en>A selection of the work, in chronological order.</p>
+    <div class="plates" id="catalogue-plates"></div>
+  </section>
+
+    <p class="foot-note" style="padding:30px 0;">© Mariève Pelletier</p>
+
+
+</div>
+
+<div id="lightbox">
+  <button id="lightbox-close" onclick="closeLightbox()">
+    <span data-fr>Fermer ✕</span><span data-en>Close ✕</span>
+  </button>
+  <div class="lb-inner">
+    <img id="lightbox-img" src="" alt="">
+    <div id="lightbox-cap" class="lb-cap"></div>
+  </div>
+</div>
+
+<script src="works.js"></script>
+<script>
+
+renderCatalogue();
+
+
+  function toggleMobileMenu(){
+    document.getElementById('mobile-menu').classList.toggle('open');
+  }
+  function closeMobileMenu(){
+    document.getElementById('mobile-menu').classList.remove('open');
+  }
+
+  function toggleLang(){
+    const body = document.body;
+    const btn = document.getElementById('lang-toggle');
+    const html = document.getElementById('html-root');
+    if(body.classList.contains('lang-en')){
+      body.classList.remove('lang-en');
+      btn.textContent = 'EN';
+      html.setAttribute('lang','fr');
+    } else {
+      body.classList.add('lang-en');
+      btn.textContent = 'FR';
+      html.setAttribute('lang','en');
+    }
+  }
+
+  function openLightbox(imgEl){
+    const plate = imgEl.closest('.plate');
+    const cap = plate ? plate.querySelector('.plate-cap') : null;
+    document.getElementById('lightbox-img').src = imgEl.src;
+    document.getElementById('lightbox-img').alt = imgEl.alt;
+    document.getElementById('lightbox-cap').innerHTML = cap ? cap.innerHTML : '';
+    document.getElementById('lightbox').classList.add('open');
+  }
+  function closeLightbox(){
+    document.getElementById('lightbox').classList.remove('open');
+  }
+  document.getElementById('lightbox').addEventListener('click', function(e){
+    if(e.target.id === 'lightbox'){ closeLightbox(); }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ closeLightbox(); }
+  });
+
+</script>
+
+</body>
+</html>
