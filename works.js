@@ -32,7 +32,6 @@ const WORKS = [
   {src:`images/33_Vue_datelier_photo_numerique.webp`,alt:`Vue d'atelier`,title:`Vue d'atelier`,fr:`2026, photographie numérique`,en:`2026, digital photograph`,year:2026},
   {src:`images/34_Apparition_disparition.webp`,alt:`Apparition/disparition`,title:`Apparition/disparition`,fr:`workshop réalisé avec l'artiste Pierre Tatu, ésam Caen/Cherbourg, hiver 2017`,en:`workshop with artist Pierre Tatu, ésam Caen/Cherbourg, winter 2017`,year:2017},
   {src:`images/35_Its_over.webp`,alt:`It's over`,title:`It's over`,fr:`2023, huile sur toile, 30 × 30 cm`,en:`2023, oil on canvas, 30 × 30 cm`,year:2023}
-  {src:`images/cyanocolo.png`,alt:`...`,title:`...`,fr:`2026, cyanotype colorisé à la main, 40 × 30 cm`,en:`2026, hand-colored cyanotype, 40 × 30 cm`,year:2026}
 ];
 
 function plateHTML(w){
