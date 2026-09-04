@@ -38,7 +38,7 @@ const WORKS = [
   {src:`images/Rosemary.jpg`,alt:`Rosemary`,title:`Rosemary`,fr:`2025, cyanotype et peinture sur toile, 24 × 30 cm`,en:`2025, cyanotype and painting on canvas, 24 × 30 cm`,year:2025},
   {src:`images/Brume_de_septembre.jpg`,alt:`Brume de septembre`,title:`Brume de septembre`,fr:`2025, peinture sur toile, 30 × 40 cm`,en:`2025, painting on canvas, 30 × 40 cm`,year:2025},
   {src:`images/Bushes.jpg`,alt:`Bushes`,title:`Bushes`,fr:`2025, cyanotype et peinture sur toile, 30 × 40 cm`,en:`2025, cyanotype and painting on canvas, 30 × 40 cm`,year:2025},
-  {src:`images/Oui_jaimelerose.jpg`,alt:`Oui, j'aime le rose`,title:`Oui, j'aime le rose`,fr:`2025, peinture sur toile, 30 × 40 cm`,en:`2025, painting on canvas, 30 × 40 cm`,year:2025},
+  {src:`images/oui_jaimelerose.jpg`,alt:`Oui, j'aime le rose`,title:`Oui, j'aime le rose`,fr:`2025, peinture sur toile, 30 × 40 cm`,en:`2025, painting on canvas, 30 × 40 cm`,year:2025},
   {src:`images/blue_Ivy.jpg`,alt:`Blue Ivy`,title:`Blue Ivy`,fr:`2025, cyanotype et peinture sur toile, 30 × 40 cm`,en:`2025, cyanotype and painting on canvas, 30 × 40 cm`,year:2025},
 ];
 
