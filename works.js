@@ -42,6 +42,9 @@ const WORKS = [
   {src:`images/jungle2.jpg`,alt:`Jungle #2`,title:`Jungle #2`,fr:`2025, peinture sur toile, 40 × 40 cm`,en:`2025, painting on canvas, 40 × 40 cm`,year:2025},
   {src:`images/jungle3.jpg`,alt:`Jungle #3`,title:`Jungle #3`,fr:`2025, peinture sur toile, 40 × 40 cm`,en:`2025, painting on canvas, 40 × 40 cm`,year:2025},
   {src:`images/verbena.jpg`,alt:`Verbena`,title:`Verbena`,fr:`2025, cyanotype et peinture sur toile, 40 × 50 cm`,en:`2025, cyanotype and painting on canvas, 40 × 50 cm`,year:2025},
+  {src:`images/chimigramme1.jpg`,alt:``,title:``,fr:`2016, chimigramme sur toile, 30 × 30 cm`,en:`2016, chimigram on canvas, 30 × 30 cm`,year:2016},
+  {src:`images/chimigramme2.jpg`,alt:``,title:``,fr:`2016, chimigramme sur toile, 30 × 30 cm`,en:`2016, chimigram on canvas, 30 × 30 cm`,year:2016},
+  {src:`images/chimigramme3.jpg`,alt:``,title:``,fr:`2016, chimigramme sur toile, 30 × 30 cm`,en:`2016, chimigram on canvas, 30 × 30 cm`,year:2016},
 ];
 
 function plateHTML(w){
