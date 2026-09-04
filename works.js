@@ -38,6 +38,10 @@ const WORKS = [
   {src:`images/Bushes.jpg`,alt:`Bushes`,title:`Bushes`,fr:`2025, cyanotype et peinture sur toile, 30 × 40 cm`,en:`2025, cyanotype and painting on canvas, 30 × 40 cm`,year:2025},
   {src:`images/oui_jaimelerose.jpg`,alt:`Oui, j'aime le rose`,title:`Oui, j'aime le rose`,fr:`2025, peinture sur toile, 30 × 40 cm`,en:`2025, painting on canvas, 30 × 40 cm`,year:2025},
   {src:`images/blue_Ivy.jpg`,alt:`Blue Ivy`,title:`Blue Ivy`,fr:`2025, cyanotype et peinture sur toile, 30 × 40 cm`,en:`2025, cyanotype and painting on canvas, 30 × 40 cm`,year:2025},
+  {src:`images/jungle1.jpg`,alt:`Jungle #1`,title:`Jungle #1`,fr:`2025, peinture sur toile, 40 × 40 cm`,en:`2025, painting on canvas, 40 × 40 cm`,year:2025},
+  {src:`images/jungle2.jpg`,alt:`Jungle #2`,title:`Jungle #2`,fr:`2025, peinture sur toile, 40 × 40 cm`,en:`2025, painting on canvas, 40 × 40 cm`,year:2025},
+  {src:`images/jungle3.jpg`,alt:`Jungle #3`,title:`Jungle #3`,fr:`2025, peinture sur toile, 40 × 40 cm`,en:`2025, painting on canvas, 40 × 40 cm`,year:2025},
+  {src:`images/verbena.jpg`,alt:`Verbena`,title:`Verbena`,fr:`2025, cyanotype et peinture sur toile, 40 × 50 cm`,en:`2025, cyanotype and painting on canvas, 40 × 50 cm`,year:2025},
 ];
 
 function plateHTML(w){
