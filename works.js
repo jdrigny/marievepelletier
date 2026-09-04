@@ -32,8 +32,6 @@ const WORKS = [
   {src:`images/33_Vue_datelier_photo_numerique.webp`,alt:`Vue d'atelier`,title:`Vue d'atelier`,fr:`2026, photographie numérique`,en:`2026, digital photograph`,year:2026},
   {src:`images/34_Apparition_disparition.webp`,alt:`Apparition/disparition`,title:`Apparition/disparition`,fr:`workshop réalisé avec l'artiste Pierre Tatu, ésam Caen/Cherbourg, hiver 2017`,en:`workshop with artist Pierre Tatu, ésam Caen/Cherbourg, winter 2017`,year:2017},
   {src:`images/35_Its_over.webp`,alt:`It's over`,title:`It's over`,fr:`2023, huile sur toile, 30 × 30 cm`,en:`2023, oil on canvas, 30 × 30 cm`,year:2023},
-  {src:`images/36_cyanocolo.webp`,alt:`After the storm #1`,title:`After the storm #1`,fr:`2026, cyanotype colorisé à la main, 42 × 29 cm`,en:`2026, hand-colored cyanotype, 42 × 29 cm`,year:2026},
-  {src:`images/36_cyanocolo2.webp`,alt:`After the storm #2`,title:`After the storm #2`,fr:`2026, cyanotype colorisé à la main, 42 × 29 cm`,en:`2026, hand-colored cyanotype, 42 × 29 cm`,year:2026},
   {src:`images/obscuratus3.webp`,alt:`Obscurus #2`,title:`Obscurus #2`,fr:`2026, robe de protection pour papiers photosensibles, tissu occultant, dentelle au crochet, fil`,en:`2026, protective dress for photosensitive papers, blackout fabric, crocheted lace, thread (detail)`,year:2026},
   {src:`images/Rosemary.jpg`,alt:`Rosemary`,title:`Rosemary`,fr:`2025, cyanotype et peinture sur toile, 24 × 30 cm`,en:`2025, cyanotype and painting on canvas, 24 × 30 cm`,year:2025},
   {src:`images/Brume_de_septembre.jpg`,alt:`Brume de septembre`,title:`Brume de septembre`,fr:`2025, peinture sur toile, 30 × 40 cm`,en:`2025, painting on canvas, 30 × 40 cm`,year:2025},
