@@ -45,10 +45,10 @@ const WORKS = [
   {src:`images/chimigramme2.jpg`,alt:``,title:`2`,fr:`2016, chimigramme sur toile, 30 × 30 cm`,en:`2016, chimigram on canvas, 30 × 30 cm`,year:2016},
   {src:`images/chimigramme3.jpg`,alt:``,title:`3`,fr:`2016, chimigramme sur toile, 30 × 30 cm`,en:`2016, chimigram on canvas, 30 × 30 cm`,year:2016},
   {src:`images/brisé.png`,alt:`(sans titre)`,title:`(sans titre)`,fr:`2025, installation, cyanotype, vitre et végétaux, 21 X 30 cm`,en:`2025, installation, cyanotype, glass pane and plants, 21 x 30 cm`,year:2025},
-  {src:`images/wintergarden1.jpg`,alt:`Wintergarden  1`,title:`Wintergarden  1`,fr:`2024, procédé au bleach sur coton, 50 × 60 cm`,en:`2024, bleach process on cotton, 50 × 60 cm`,year:2024},
-  {src:`images/wintergarden2.jpg`,alt:`Wintergarden  2`,title:`Wintergarden  2`,fr:`2024, procédé au bleach sur coton, 50 × 60 cm`,en:`2024, bleach process on cotton, 50 × 60 cm`,year:2024},
-  {src:`images/wintergarden3.jpg`,alt:`Wintergarden  3`,title:`Wintergarden  3`,fr:`2024, procédé au bleach sur coton, 50 × 60 cm`,en:`2024, bleach process on cotton, 50 × 60 cm`,year:2024},
-  {src:`images/wintergarden4.jpg`,alt:`Wintergarden  4`,title:`Wintergarden  4`,fr:`2024, procédé au bleach sur coton, 40 × 50 cm`,en:`2024, bleach process on cotton, 40 × 50 cm`,year:2024},
+  {src:`images/winter_garden1.jpg`,alt:`Wintergarden  1`,title:`Wintergarden  1`,fr:`2024, procédé au bleach sur coton, 50 × 60 cm`,en:`2024, bleach process on cotton, 50 × 60 cm`,year:2024},
+  {src:`images/winter_garden2.jpg`,alt:`Wintergarden  2`,title:`Wintergarden  2`,fr:`2024, procédé au bleach sur coton, 50 × 60 cm`,en:`2024, bleach process on cotton, 50 × 60 cm`,year:2024},
+  {src:`images/winter_garden3.jpg`,alt:`Wintergarden  3`,title:`Wintergarden  3`,fr:`2024, procédé au bleach sur coton, 50 × 60 cm`,en:`2024, bleach process on cotton, 50 × 60 cm`,year:2024},
+  {src:`images/winter_garden4.jpg`,alt:`Wintergarden  4`,title:`Wintergarden  4`,fr:`2024, procédé au bleach sur coton, 40 × 50 cm`,en:`2024, bleach process on cotton, 40 × 50 cm`,year:2024},
 ];
 
 function plateHTML(w){
