@@ -29,7 +29,6 @@ const WORKS = [
   {src:`images/30_Lilas.webp`,alt:`Lilas`,title:`Lilas`,fr:`2020, étude d'image en insolation (procédé au lumen), châssis-presse 1850`,en:`2020, insolation study (lumen process), 1850 press-frame`,year:2020},
   {src:`images/31_Les_petites_mains_a.webp`,alt:`Série Les petites mains`,title:`Série Les petites mains`,fr:`2025, huile sur toile de coton, 30 × 30 cm`,en:`2025, oil on cotton canvas, 30 × 30 cm`,year:2025},
   {src:`images/32_Les_petites_mains_b.webp`,alt:`Série Les petites mains`,title:`Série Les petites mains`,fr:`2025, huile, vernis à ongles sur toile de coton, 30 × 30 cm`,en:`2025, oil and nail polish on cotton canvas, 30 × 30 cm`,year:2025},
-  {src:`images/33_Vue_datelier_photo_numerique.webp`,alt:`Vue d'atelier`,title:`Vue d'atelier`,fr:`2026, photographie numérique`,en:`2026, digital photograph`,year:2026},
   {src:`images/34_Apparition_disparition.webp`,alt:`Apparition/disparition`,title:`Apparition/disparition`,fr:`workshop réalisé avec l'artiste Pierre Tatu, ésam Caen/Cherbourg, hiver 2017`,en:`workshop with artist Pierre Tatu, ésam Caen/Cherbourg, winter 2017`,year:2017},
   {src:`images/35_Its_over.webp`,alt:`It's over`,title:`It's over`,fr:`2023, huile sur toile, 30 × 30 cm`,en:`2023, oil on canvas, 30 × 30 cm`,year:2023},
   {src:`images/obscuratus3.webp`,alt:`Obscurus #2`,title:`Obscurus #2`,fr:`2026, robe de protection pour papiers photosensibles, tissu occultant, dentelle au crochet, fil`,en:`2026, protective dress for photosensitive papers, blackout fabric, crocheted lace, thread (detail)`,year:2026},
@@ -45,6 +44,7 @@ const WORKS = [
   {src:`images/chimigramme1.jpg`,alt:``,title:`1`,fr:`2016, chimigramme sur toile, 30 × 30 cm`,en:`2016, chimigram on canvas, 30 × 30 cm`,year:2016},
   {src:`images/chimigramme2.jpg`,alt:``,title:`2`,fr:`2016, chimigramme sur toile, 30 × 30 cm`,en:`2016, chimigram on canvas, 30 × 30 cm`,year:2016},
   {src:`images/chimigramme3.jpg`,alt:``,title:`3`,fr:`2016, chimigramme sur toile, 30 × 30 cm`,en:`2016, chimigram on canvas, 30 × 30 cm`,year:2016},
+  {src:`images/brisé.png`,alt:`(sans titre)`,title:`(sans titre)`,fr:`2025, installation, cyanotype, vitre et végétaux, 21 X 30 cm`,en:`2025, installation, cyanotype, glass pane and plants, 21 x 30 cm`,year:2025},
 ];
 
 function plateHTML(w){
