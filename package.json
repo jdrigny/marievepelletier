@@ -1,0 +1,23 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "``` index.html favicon.svg images/   portrait.webp   dit-de-leau-1.webp   dit-de-leau-2.webp   the-mountain.webp   chimigramme.webp   top-skirt.webp   etude-atelier.webp   sans-titre-teinture.webp   og-image.jpg   (image d'aperçu pour le partage sur les réseaux sociaux) ```",
+  "main": "works.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdrigny/marievepelletier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdrigny/marievepelletier/issues"
+  },
+  "homepage": "https://github.com/jdrigny/marievepelletier#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
